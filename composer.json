@@ -1,0 +1,26 @@
+{
+    "name": "frne/quality-pimp-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony QualityPimpBundle",
+    "keywords": ["quality", "phpunit", "code analysis", "GUI"],
+    "homepage": "https://github.com/frne/QualityPimpBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Neff",
+            "email": "fneff89@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+    },
+    "autoload": {
+        "psr-0": { "Frne\\Bundle\\QualityPimpBundle": "" }
+    },
+    "target-dir": "Frne/Bundle/QualityPimpBundle"
+}
+
